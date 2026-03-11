@@ -336,7 +336,7 @@ def menu():
 
 
 
-def menu(Cliente):
+def menuCliente():
         print("\n ----- Cliente Menu -----")
         print("1 - Pesquisar produtos")
         print("2 - Adicionar ao carrinho")
@@ -359,7 +359,7 @@ def menu(Cliente):
         else: 
             print("Erro ao sair, tente novamente")
 
-def menu(Admin):
+def menuAdmin():
     
         print("\n ----- Admin Menu -----")
         print("1 - Cadastrar fornecedor")
